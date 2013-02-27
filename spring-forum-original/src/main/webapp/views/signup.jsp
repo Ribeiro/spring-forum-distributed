@@ -3,7 +3,7 @@
 
 <div class="row">
 	<div class="four columns">
-		<h4>Bem vindo(a) ao Spring F&oacute;rum</h4>
+		<h4>Bem vindo(a) ao Spring F&oacute;rum Valterfi Oliveira</h4>
 		<p>Esperamos poder lhe ajudar a dominar o m&aacute;ximo poss&iacute;vel todos os conceitos por tr&aacute;s do Spring Framework e seus projetos relacionados</p>
 	</div>
 	<div class="eight columns">
