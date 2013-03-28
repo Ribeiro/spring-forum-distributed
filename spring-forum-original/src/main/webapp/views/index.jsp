@@ -33,6 +33,12 @@
 			</c:forEach>
 			</ul>
 		</div>
+				<div class="two columns">
+			<h5>Incluir Assunto</h5>
+			<ul class="side-nav">
+			<li><a href="assunto/novo">Novo Assunto</a></li>
+			</ul>
+		</div>
 		
 	</div>
 	

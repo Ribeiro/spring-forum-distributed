@@ -27,6 +27,10 @@
     	<put-attribute name="conteudo" value="/views/assunto/show.jsp"/>
     </definition>
     
+    <definition name="assunto/novo" extends="main">
+    	<put-attribute name="conteudo" value="/views/assunto/novo.jsp"/>
+    </definition>
+    
     <definition name="usuario/posts" template="/views/usuario/postsUsuario.jsp"/>
     	
     

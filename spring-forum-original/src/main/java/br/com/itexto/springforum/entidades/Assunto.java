@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Size;
 
 import org.hibernate.annotations.Generated;
 import org.hibernate.annotations.GenerationTime;
@@ -20,7 +21,8 @@ public class Assunto implements Comparable, java.io.Serializable {
 	
 	public long getId() {return id;}
 	public void setId(long valor) {this.id = valor;}
-		
+	
+	@Size(min=3,message="Nome do assunto inv‡lido!")
 	@Column(name="nome", unique=true, length=128)
 	private String nome;
 	
